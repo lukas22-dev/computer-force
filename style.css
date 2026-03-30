@@ -1,0 +1,105 @@
+.homeTitle {
+    font-family: "Playfair Display", serif;
+    color: white;
+    font-size: 60px;
+    font-weight:400;
+}
+
+.aboutTitle {
+    font-family: "Archivo Black", sans-serif;
+}
+
+h1{
+    margin-top:40px;
+}
+
+.menuBox {
+background-color:#f8f5ef;
+padding:25px;
+border-radius:10px;
+}
+
+.menuBox h2 {
+text-align:center;
+margin-bottom:20px;
+}
+
+.menuBox ul {
+list-style-type:none;
+padding:0;
+text-align:center;
+}
+
+.menuBox li {
+margin-bottom:10px;
+}
+
+body {
+background-image:url("coffee.jpg.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+min-height:100vh;
+text-shadow:2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.homePage p{
+color:white;
+text-shadow:2px 2px 8px rgba(0,0,0,0.7);
+}
+
+h1, h3, label{
+color:white !important;
+text-shadow:2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.contactPage{
+color:white;
+}
+
+.contactPage h1,
+.contactPage h3,
+.contactPage p,
+.contactPage label{
+color:white;
+text-shadow:2px 2px 8px rgba(0,0,0,0.7);
+}
+
+p{
+color:white;
+text-shadow:2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align: center;
+}
+
+.aboutPage p{
+color:white;
+text-shadow:2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.navbar{
+background:rgba(0,0,0,0.5) !important;
+backdrop-filter:blur(4px);
+position:relative;
+}
+
+.navbar-brand{
+position:absolute;
+left:50%;
+transform:translateX(-50%);
+}
+
+.navbar-nav{
+margin-left:auto;
+}
+
+.aboutPage h1{
+padding-top:220px;
+}
